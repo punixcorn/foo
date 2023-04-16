@@ -21,4 +21,7 @@ int getargs(std::string str, ...) noexcept {
   return 1;
 }
 
-int main(void) {}
+int main(void) {
+  getargs("foo  % ", "foo");
+  return 0;
+}
