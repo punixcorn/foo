@@ -1,3 +1,3 @@
-#Include < std>
+#include <stdio.h>
 
-as das doublead as stda stdasdas dassda stdasdasad
+int main() { return 0; }
