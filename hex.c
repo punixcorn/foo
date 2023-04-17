@@ -8,8 +8,10 @@
 int main() {
   int i, j, n;
 
-  printf("Enter the size of the kite: ");
-  scanf("%d", &n);
+  do {
+    printf("Enter the size of the kite (positive integer greater than zero): ");
+    scanf("%d", &n);
+  } while (n <= 0);
 
   for (i = 1; i <= n; i++) {
     for (j = 1; j <= n - i; j++) {
